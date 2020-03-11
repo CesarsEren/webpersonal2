@@ -1,11 +1,11 @@
 @font-face {
     font-family: MonoType Corsive;
-    src: url(/fonts/911Fonts.com_MonotypeCorsiva_Regular_-_911fonts.com_fonts_gyWJ.ttf);
+    src: url("fonts/911Fonts.com_MonotypeCorsiva_Regular_-_911fonts.com_fonts_gyWJ.ttf");
 }
 
 @font-face {
     font-family: Microsoft Uighur;
-    src: url(/fonts/msuighur.ttf);
+    src: url("fonts/msuighur.ttf");
 }
 
 * {
@@ -18,8 +18,7 @@
     --bg-principal: #F9F6F7;
 }
 
-*,
-html {
+*, html {
     margin: 0px;
     padding: 0px;
 }
@@ -70,12 +69,37 @@ nav a {
 }
 
 .before-footer {
+    background-color: var(--bg-principal);
     text-align: center;
     font-family: 'Poppins', sans-serif;
     font-size: 25px;
 }
 
+.before-footer2 {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+.bg-footer{
+    width: 100%;
+    padding-right: 15%;
+    padding-left: 15%;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    background-color: var(--primary-color);   
+}
+.before-footer2 article {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-style: solid;
+    border-color: var(--bg-principal);
+}
+
 .container-before-footer {
+    background-color: var(--bg-principal);
     padding-top: 45px;
     padding-bottom: 35px;
 }
@@ -115,7 +139,7 @@ input[type=text] {
 }
 
 .bg-header {
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.4)), url("/imgbg.png");
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.4)), url("imgbg.png");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -246,6 +270,26 @@ input[type=text] {
     color: white;
     text-align: center;
     font-weight: bold;
+}
+
+.go-end2 {
+    text-decoration: none;
+    float: right;
+    text-align: center;
+    vertical-align: middle;
+    margin: auto;
+}
+
+.go-end2 li {
+    text-decoration: none;
+    border-style: solid;
+    border-width: 0.1px;
+    display: inline-block;
+    padding-right: 35px;
+    padding-left: 35px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-color: var(--bg-principal);
 }
 
 .go-end {
