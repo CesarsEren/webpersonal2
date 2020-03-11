@@ -1,0 +1,348 @@
+@font-face {
+    font-family: MonoType Corsive;
+    src: url(/fonts/911Fonts.com_MonotypeCorsiva_Regular_-_911fonts.com_fonts_gyWJ.ttf);
+}
+
+@font-face {
+    font-family: Microsoft Uighur;
+    src: url(/fonts/msuighur.ttf);
+}
+
+* {
+    --primary-color: #185756;
+    --secondary-color: #FF971D;
+    --option-color: #FFF;
+    --text-primary: #363636;
+    --text-secondary: rgba(26, 26, 26, 0.75);
+    --text-title-card: #BDBFCD;
+    --bg-principal: #F9F6F7;
+}
+
+*,
+html {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    padding-top: 25px;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+}
+
+nav {
+    background-color: transparent;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+.logo {
+    display: block;
+}
+
+.logo-title {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 30px;
+}
+
+.logo-subtitle {
+    font-family: 'Poppins', sans-serif;
+    text-align: end;
+    font-size: 25px;
+    margin-top: -10px;
+}
+
+.container {
+    width: 70%;
+    margin: auto;
+}
+
+nav a {
+    color: white;
+    display: inline-block;
+    text-align: right;
+    padding: 15px;
+    text-decoration: none;
+}
+
+.before-footer {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+}
+
+.container-before-footer {
+    padding-top: 45px;
+    padding-bottom: 35px;
+}
+
+input[type=text] {
+    align-content: center;
+    margin: auto;
+    font-size: 15px;
+    margin: 15px;
+    padding-right: 45px;
+    padding-left: 45px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 5px;
+}
+
+.button-send {
+    text-align: center;
+    border-width: 0px;
+    color: white;
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: var(--primary-color);
+}
+
+.button-send:hover {
+    text-align: center;
+    border-width: 0px;
+    color: white;
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: var(--secondary-color);
+}
+
+.bg-header {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.4)), url("/imgbg.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-first-section {
+    background-color: var(--bg-principal);
+}
+
+.secondary-text {
+    width: 60%;
+    margin: auto;
+    padding-top: 15px;
+    text-align: center;
+}
+
+.secondary-text h1 {
+    margin-top: 45px;
+    font-family: 'MonoType Corsive';
+    font-weight: lighter;
+    font-size: 35px;
+    color: var(--text-primary);
+}
+
+.secondary-text p {
+    font-family: 'MonoType Corsive';
+    font-size: 25px;
+    margin: auto;
+    margin-top: 25px;
+    color: var(--text-secondary)
+}
+
+.secondary-text button {
+    margin-top: 45px;
+    margin-bottom: 45px;
+    background-color: var(--secondary-color);
+    border-radius: 15px;
+    border-style: double;
+    border-color: var(--secondary-color);
+    padding-left: 75px;
+    font-size: 16px;
+    padding-right: 75px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+.bg-texture {
+    background: url("/texture-bg.png");
+    background-repeat: repeat;
+    background-size: 200px;
+    padding-top: 25px;
+}
+
+.card {
+    text-align: center;
+    display: inline-block;
+    margin: auto;
+    width: 100%;
+}
+
+.section {
+    margin: auto;
+    width: 80%;
+    display: flex;
+    padding: 55px;
+}
+
+.section div {
+    align-content: center;
+}
+
+.card-item {
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 20px;
+    font-family: 'Mukta', sans-serif;
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+}
+
+.card-header {
+    color: var(--text-title-card);
+    padding: 25px;
+}
+
+.card-header h4 {
+    font-family: Microsoft Uighur;
+    font-size: 30px;
+    letter-spacing: 20px
+}
+
+.header {
+    padding: 10px 16px;
+    background: #555;
+    color: #f1f1f1;
+}
+
+.card-body {
+    color: var(--text-secondary);
+}
+
+.card-body p {
+    width: 90%;
+    margin-bottom: 25px;
+    text-align: center;
+    color: var(--text-secondary);
+    font-size: 22px;
+}
+
+.card-body button {
+    margin-top: 35px;
+    background-color: var(--secondary-color);
+    border-radius: 15px;
+    border-style: double;
+    border-color: var(--secondary-color);
+    padding-left: 75px;
+    font-size: 16px;
+    padding-right: 75px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+.go-end {
+    float: right;
+    text-align: center;
+    vertical-align: middle;
+    margin: auto;
+}
+
+.nav-item {
+    opacity: 0.9;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Mukta', sans-serif;
+    text-align: right;
+    vertical-align: middle;
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+}
+
+.nav-item:hover {
+    color: white;
+    opacity: 1;
+    display: inline-block;
+    padding: 15px;
+    text-decoration: none;
+}
+
+.nav-item-active {
+    opacity: 1;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Mukta', sans-serif;
+    text-align: right;
+    vertical-align: middle;
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+}
+
+.foto-middler {
+    margin-top: 175px;
+    vertical-align: bottom;
+    text-align: center;
+}
+
+.foto-middler h1 {
+    margin-top: 15px;
+    font-family: 'Mukta', sans-serif;
+    font-size: 35px;
+    color: white;
+}
+
+.foto-middler button {
+    margin-top: 25px;
+    background-color: var(--secondary-color);
+    border-radius: 15px;
+    border-style: double;
+    border-color: var(--secondary-color);
+    padding-left: 75px;
+    font-size: 16px;
+    padding-right: 75px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+#btnproyectos {
+    background-color: transparent;
+    border-radius: 15px;
+    border-style: double;
+    border-color: white;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+#btnproyectos:hover {
+    background-color: orange;
+    border-radius: 15px;
+    border-style: double;
+    border-color: white;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
